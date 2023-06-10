@@ -38,7 +38,7 @@ html{
   top: 10px;
 }
 .box{
-  box-shadow: 20px 20px 20px #000000;
+  box-shadow: 10px 10px 10px #000000;
   padding: 4%;
   margin: 8%;
   border-radius: 20px;
@@ -49,7 +49,7 @@ h1{
   text-align: center;
 }
 h2{
-  box-shadow: 12px 12px 12px #6b6b6b;
+  box-shadow:inset 10px 10px 10px #000000;
   background: #8d8d8d;
   width: fit-content;
   padding: 10px;
@@ -67,6 +67,7 @@ h2{
 }
 .logo2{
   width: 70px;
+  filter: drop-shadow(2px 2px 2px black);
   float: left;
 }
 .logo3{
