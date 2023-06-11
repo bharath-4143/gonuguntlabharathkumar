@@ -36,8 +36,12 @@ html{
 }
 .box{
   box-shadow: 4px 4px 4px #000000;
-  padding: 4%;
-  margin: 8%;
+  max-width: 520px;
+  width: 80%;
+  padding: 15px;
+  margin: auto;
+  margin-top:20px;
+  margin-bottom:20px;
   border-radius: 20px;
   border-top-left-radius: 0px;
   background-color: rgb(230, 230, 230);
@@ -52,8 +56,8 @@ h2{
   box-shadow:inset 4px 4px 4px #000000;
   background: #8d8d8d;
   width: min-content;
-  padding: 10px;
-  border-radius: 15px;
+  padding: 8px;
+  border-radius: 10px;
 }
 .profile{
   width: 240px;
@@ -63,7 +67,7 @@ h2{
   width: 120px;
 }
 .logo2{
-  width: 70px;
+  width: 50px;
   float: left;
 }
 .logo3{
@@ -74,16 +78,16 @@ p{
   color: rgb(70, 70, 70);
 }
 .content{
-  min-height: 72px;
-  padding: 10px;
+  min-height: 40px;
+  padding: 5px;
 }
 .info1{
   color: black;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 .info{
   color: rgb(70, 70, 70);
-  padding-left: 80px;
+  padding-left: 60px;
 }
 form{ 
   margin: auto;
@@ -128,7 +132,7 @@ h6{
   text-align: center;
 }
 .c{
-  width: 30px;
+  width: 25px;
   padding-left: 1.5%;
   padding-right: 1.5%;
 }
