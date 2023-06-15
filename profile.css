@@ -6,7 +6,7 @@
 }
 html{
   background-attachment: fixed;
-  background-image:radial-gradient(rgb(245, 245, 245),rgb(83, 83, 83));
+  background-image:radial-gradient(rgb(245, 245, 245),lightgray);
 }
 .nav1{
   visibility: hidden;
@@ -35,7 +35,7 @@ html{
   top: 10px;
 }
 .box{
-  box-shadow: 4px 4px 4px #000000;
+  box-shadow: 3px 3px 3px gray;
   max-width: 520px;
   width: 80%;
   padding: 15px;
@@ -44,7 +44,7 @@ html{
   margin-bottom:20px;
   border-radius: 20px;
   border-top-left-radius: 0px;
-  background-color: rgb(230, 230, 230);
+  background-color: whitesmoke;
 }
 h{
  font-size: 18px; 
@@ -53,21 +53,21 @@ h1{
   text-align: center;
 }
 h2{
-  box-shadow:inset 4px 4px 4px #000000;
-  background: #8d8d8d;
+  box-shadow:inset 3px 3px 3px gray;
+  background: lightgray;
   width: min-content;
   padding: 8px;
   border-radius: 10px;
 }
 .profile{
-  width: 240px;
-  border-radius: 120px;
+  width: 160px;
+  border-radius: 50%;
 }
 .logo1{
   width: 120px;
 }
 .logo2{
-  width: 50px;
+  max-height: 50px;
   float: left;
 }
 .logo3{
@@ -78,7 +78,7 @@ p{
   color: rgb(70, 70, 70);
 }
 .content{
-  min-height: 40px;
+  min-height: 60px;
   padding: 5px;
 }
 .info1{
@@ -94,7 +94,7 @@ form{
   margin-bottom: 30px;
   padding: 10px;
   max-width: 330px;
-  background-image: radial-gradient(rgb(231, 231, 231),rgb(114, 114, 114));
+  background: lightgray;
   border-radius: 20px;
 }
 iframe{
@@ -103,11 +103,12 @@ iframe{
   margin: 5px;
 }
 .feedback{
+  width: 20px;
+  height: 20px;
   position: fixed;
   border-radius: 50%;
   background-image: radial-gradient(rgb(255, 255, 255),rgb(126, 126, 126));
-  background-image: blur(5pxs);
-  padding: 12px;
+  padding: 10px;
   bottom: 15px;
   right: 15px;
 }
@@ -125,7 +126,7 @@ iframe{
 }
 footer{
   align-items: center;
-  background-image:linear-gradient(rgb(255, 255, 255),rgb(83, 83, 83));
+  background-image:linear-gradient(rgb(255, 255, 255),lightgray);
   padding: 3%;
 }
 h6{
